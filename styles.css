@@ -1,0 +1,30 @@
+body {
+    background: rgb(243, 240, 240);
+    color: black
+}
+
+#port-nav ul {
+    list-style: none;
+    font-size: 30px;
+    color: black;
+    text-align: center
+}
+
+#port-nav>ul>li {
+    display: inline;
+}
+
+#port-nav>ul>li>a {
+    padding: 20px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: rgb(12, 137, 209);
+    background: none;
+    text-decoration: none;
+}
+
+#port-nav>ul>li>a:hover {
+    color: rgb(87, 84, 84);
+    background: white;
+    text-decoration: none;
+}
